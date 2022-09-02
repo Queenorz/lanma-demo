@@ -1,0 +1,168 @@
+@charset "utf-8";
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-family:"OPPOSans Bold";
+}
+ input:-moz-placeholder, textarea:-moz-placeholder {
+ color: #fff;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+ color: #fff;
+}
+ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ color: #fff;
+}
+ol, ul, li {
+	padding-left: 0em;
+	list-style: none
+}
+h2, h3, h4, ul, li, p {
+	padding: 0;
+	margin: 0;
+}
+input {
+	outline: none;
+}
+html {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%
+}
+.blue-bg{
+	background:url(/img/bg1.jpg) no-repeat left top;
+	background-size:100% 100%;
+}
+.orange-bg{
+	background:url(../images/orange-bg.png) no-repeat left top;
+	background-size:100% auto;
+}
+.top-header{
+	line-height:44px;
+	height:44px;
+	font-size:1.3rem;
+	color:#fff;
+	text-align:center;
+	width:100%;
+}
+.banner{
+	width:100%;
+	text-align:center;
+	margin:40px 0;
+}
+.banner img{
+	width:88%;
+	height:auto;
+	
+}
+.content-box{
+	width:90%;
+	height:630px;
+	border-radius:10px;
+	box-shadow:0 0 8px rgba(0, 0, 0, 0.4);
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+}
+.top-title{
+	width:73%;
+	margin:0 auto;
+	line-height:30px;
+	margin-left: 20px;
+	float: left;
+}
+.sss{
+	overflow: hidden;
+}
+.top-title h3{
+	font-size:1.3rem;
+	color:#333;
+	width:70%;
+	float:left;
+	font-weight:normal;
+}
+.link-btn{
+	width:20%;
+	float:right;
+	/*text-align:right;*/
+	/*color:#028aff;*/
+	text-decoration:none;
+	font-size:1.1rem;
+}
+.time{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	line-height:24px;
+	font-size:0.9rem;
+	color:#999;
+}
+.qr{
+	width:100%;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	position: relative;
+	margin: auto;
+}
+.qr #border{
+	top: -2px;
+	width: 299px;
+	left: 50%;
+	position: absolute;
+	margin-left: -150px;
+}
+.tip{
+	width:100%;
+	text-align:center;
+	line-height:24px;
+	font-size:1rem;
+	color:#666;
+}
+.bottom-tip{
+	width:80%;
+	margin:30px auto;
+}
+.bottom-tip h3{
+	float:left;
+	font-size:1rem;
+	color:#999;
+	font-weight:normal;
+	width:70%;
+}
+.orange{
+	color:#f75908;
+}
+.qr canvas{
+	margin-top: 10px;
+}
+.now-date{
+    width:100%;
+    margin:50px 0 0 0;
+    text-align:center;
+    padding: 27px 0px 0px 0px;
+    line-height:24px;
+    font-size:1.8rem;
+    font-size:2.5rem;
+    color: #424242;
+    font-weight: bold;
+}
+.now-time{
+    width:100%;
+    margin:50px 0 0 0;
+    margin:30px 0 0 0;
+    text-align:center;
+    line-height:24px;
+    font-size:1.8rem;
+    font-size:3.0rem;
+    color: #424242;
+    font-weight: bold;
+}
+#kongge{
+    line-height: 15px;
+}
+#rqText{
+	color:goldenrod;font-size:15px;margin:10px 0px 0px 43px;
+}
